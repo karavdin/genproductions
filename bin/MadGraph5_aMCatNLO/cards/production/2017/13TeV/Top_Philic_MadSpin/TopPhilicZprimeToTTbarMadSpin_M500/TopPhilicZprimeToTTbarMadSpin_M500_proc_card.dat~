@@ -1,0 +1,9 @@
+set group_subprocesses Auto
+set ignore_six_quark_processes False
+set loop_optimized_output True
+set complex_mass_scheme False
+import model Top_Philic_V1_NLO
+define p = g u c d s b u~ c~ d~ s~ b~ 
+define j = g u c d s b u~ c~ d~ s~ b~
+generate p p > v1 j WEIGHTED=11, (v1 > t t~ WEIGHTED=11, (t > W+ b WEIGHTED=2, W+ > all all WEIGHTED=2), (t~ > W- b~ WEIGHTED=2, W- > all all WEIGHTED=2)) QS1=2 @0
+output TopPhilicZprimeToTTbarMadSpin_M500 -nojpeg
