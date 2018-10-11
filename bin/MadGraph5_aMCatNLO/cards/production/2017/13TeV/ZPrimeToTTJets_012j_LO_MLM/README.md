@@ -11,6 +11,7 @@ First, edit the cards for the reference point, `ZPrimeToTTJets_M500GeV_W5GeV`. Y
 
 Once you're done, execute the script `./generateCards.py`. All the cards for all the samples points are now available in the current directory. You can now proceed with the gridpack generation.
 
+
 ### Previous version of cards
 Card used for 2016 production are stored here:
 bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/ZPrimeToTTJets_0123j_LO_MLM
